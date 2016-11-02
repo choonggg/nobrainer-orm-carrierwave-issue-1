@@ -1,0 +1,63 @@
+GIT
+  remote: git://github.com/carrierwaveuploader/carrierwave.git
+  revision: 1d2f26428fe944977a91fe5fdf2fb033d5a13239
+  specs:
+    carrierwave (1.0.0.rc)
+      activemodel (>= 4.0.0)
+      activesupport (>= 4.0.0)
+      mime-types (>= 1.16)
+
+GIT
+  remote: git://github.com/nviennot/carrierwave-nobrainer.git
+  revision: c240b1b2010f943620b0f9db2a3d98000f2be3cb
+  specs:
+    carrierwave-nobrainer (0.1.0)
+      carrierwave (>= 0.10.0)
+      nobrainer (>= 0.24.0)
+
+GIT
+  remote: git://github.com/nviennot/nobrainer.git
+  revision: 67681935e1d04cf5d6ee1a27348aaa6416b17fc1
+  specs:
+    nobrainer (0.33.0)
+      activemodel (>= 4.1.0)
+      activesupport (>= 4.1.0)
+      middleware (~> 0.1.0)
+      rethinkdb (>= 2.3.0)
+      symbol_decoration (~> 1.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (5.0.0.1)
+      activesupport (= 5.0.0.1)
+    activesupport (5.0.0.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    concurrent-ruby (1.0.2)
+    i18n (0.7.0)
+    middleware (0.1.0)
+    mime-types (3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0521)
+    mini_magick (4.5.1)
+    minitest (5.9.1)
+    rethinkdb (2.3.0.2)
+    symbol_decoration (1.1.0)
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  carrierwave!
+  carrierwave-nobrainer!
+  mini_magick
+  nobrainer!
+
+BUNDLED WITH
+   1.12.5

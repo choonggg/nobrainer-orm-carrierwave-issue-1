@@ -1,0 +1,4 @@
+en:
+  errors:
+    messages:
+      extension_whitelist_error: "Not an image"
